@@ -2,6 +2,26 @@
 
 A data analytics dashboard built with Python, Flask, Pandas, HTML, CSS, JavaScript, and Chart.js to explore e-commerce sales performance, customer behavior, and product revenue.
 
+## Dashboard Preview
+
+### Sales Overview
+![Shoplytics Sales Overview](screenshots/overview.png)
+
+### Customer Intelligence
+![Customer Intelligence](screenshots/customer-intelligence.png)
+
+### Customer Spending Analysis
+![Customer Spending Analysis](screenshots/customer-spending.png)
+
+### Highest-Value Customers
+![Highest-Value Customers](screenshots/highest-value-customers.png)
+
+### Product Performance
+![Top Products by Revenue](screenshots/top-products.png)
+
+### Business Insights
+![Business Insights](screenshots/business-insights.png)
+
 ## Project Overview
 
 Shoplytics transforms e-commerce order data into interactive dashboards and business insights. Users can filter data, compare sales performance, analyze customers, explore product revenue, and export filtered records.
