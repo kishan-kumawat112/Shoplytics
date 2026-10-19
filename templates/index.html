@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoplytics | E-commerce Insights</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" type="image/svg+xml"
+      href="{{ url_for('static', filename='favicon.svg') }}">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="brand"><span class="brand-icon">S</span> Shoplytics</div>
+            <p class="side-label">WORKSPACE</p>
+            <a class="nav-link active" href="#overview">▦ &nbsp; Overview</a>
+            <a class="nav-link" href="#analytics">▤ &nbsp; Analytics</a>
+            <a class="nav-link" href="#products">◈ &nbsp; Products</a>
+            <a class="nav-link" href="#customers">♙ &nbsp; Customers</a>
+            <div class="sidebar-bottom">
+                <div class="sample-note">● Sample dataset<br><small>500 generated orders</small></div>
+                <p>Sales Intelligence<br><small>Portfolio Project · 2026</small></p>
+            </div>
+        </aside>
+
+        <main class="main-content" id="overview">
+            <header class="topbar">
+                <div>
+                    <p class="eyebrow">BUSINESS INTELLIGENCE</p>
+                    <h1>Sales Overview</h1>
+                    <p class="muted">Understand your business performance at a glance.</p>
+                </div>
+                <button id="exportBtn" class="export-btn">↓ Export CSV</button>
+            </header>
+
+            <section class="filter-panel">
+                <div class="filter-heading">
+                    <div><strong>Filter your data</strong><p class="muted">Explore sales by date and segment.</p></div>
+                    <button id="resetBtn" class="reset-btn">Reset filters</button>
+                </div>
+                <div class="filters">
+                    <label>Start date<input type="date" id="startDate"></label>
+                    <label>End date<input type="date" id="endDate"></label>
+                    <label>Category<select id="category"><option value="All">All categories</option></select></label>
+                    <label>Region<select id="region"><option value="All">All regions</option></select></label>
+                    <label>Sales channel<select id="channel"><option value="All">All channels</option></select></label>
+                </div>
+                <p id="status" class="status">Connecting to sales data...</p>
+            </section>
+
+            <section class="kpi-grid">
+                <article class="kpi-card">
+                    <div class="kpi-top">
+                        <span>Total Revenue</span>
+                        <span class="kpi-icon purple">₹</span>
+                    </div>
+
+                    <h2 id="revenue">Loading...</h2>
+
+                    <p class="muted">Revenue from selected orders</p>
+
+                    <!-- NEW: Revenue growth comparison -->
+                    <p id="revenueGrowth" class="kpi-growth">
+                        Loading comparison...
+                    </p>
+                </article>
+
+                                
+                <article class="kpi-card">
+                    <div class="kpi-top">
+                        <span>Total Orders</span>
+                        <span class="kpi-icon blue">▤</span>
+                    </div>
+                    <h2 id="orders">Loading...</h2>
+                    <p class="muted">Unique order IDs</p>
+                    <p id="ordersGrowth" class="kpi-growth">Loading comparison...</p>
+                </article>
+
+                <article class="kpi-card">
+                    <div class="kpi-top">
+                        <span>Units Sold</span>
+                        <span class="kpi-icon green">◈</span>
+                    </div>
+                    <h2 id="units">Loading...</h2>
+                    <p class="muted">Products purchased</p>
+                    <p id="unitsGrowth" class="kpi-growth">Loading comparison...</p>
+                </article>
+
+                <article class="kpi-card">
+                    <div class="kpi-top">
+                        <span>Unique Customers</span>
+                        <span class="kpi-icon orange">♙</span>
+                    </div>
+                    <h2 id="customers">Loading...</h2>
+                    <p class="muted">Customers in selected data</p>
+                    <p id="customersGrowth" class="kpi-growth">Loading comparison...</p>
+                </article>
+
+                <article class="kpi-card">
+                    <div class="kpi-top">
+                        <span>Average Order Value</span>
+                        <span class="kpi-icon pink">₹</span>
+                    </div>
+                    <h2 id="aov">Loading...</h2>
+                    <p class="muted">Revenue divided by orders</p>
+                    <p id="aovGrowth" class="kpi-growth">Loading comparison...</p>
+                </article>
+
+            </section>
+
+
+
+
+            <section class="dashboard-section" id="customer-intelligence">
+                <div class="section-heading">
+                    <div>
+                        <h2>Customer Intelligence</h2>
+                        <p class="muted">Understand repeat purchases and customer value</p>
+                    </div>
+                </div>
+
+                <div class="kpi-grid">
+                    <article class="kpi-card">
+                        <div class="kpi-top">
+                            <span>Total Customers</span>
+                            <span class="kpi-icon blue">♙</span>
+                        </div>
+                        <h2 id="ciTotalCustomers">Loading...</h2>
+                        <p class="muted">Customers in selected data</p>
+                    </article>
+
+                    <article class="kpi-card">
+                        <div class="kpi-top">
+                            <span>Repeat Customers</span>
+                            <span class="kpi-icon green">↻</span>
+                        </div>
+                        <h2 id="ciRepeatCustomers">Loading...</h2>
+                        <p class="muted">Customers with multiple orders</p>
+                    </article>
+
+                    <article class="kpi-card">
+                        <div class="kpi-top">
+                            <span>Repeat Purchase Rate</span>
+                            <span class="kpi-icon purple">%</span>
+                        </div>
+                        <h2 id="ciRepeatRate">Loading...</h2>
+                        <p class="muted">Share of repeat customers</p>
+                    </article>
+                </div>
+
+                <div class="dashboard-section">
+                    <div class="section-heading">
+                        <div>
+                            <h2>Highest-Value Customers</h2>
+                            <p class="muted">Ranked by total spending</p>
+                        </div>
+                    </div>
+
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Customer ID</th>
+                                    <th>Total Spent</th>
+                                    <th>Orders</th>
+                                    <th>Units Purchased</th>
+                                </tr>
+                            </thead>
+                            <tbody id="customerIntelligenceTable">
+                                <tr>
+                                    <td colspan="4">Loading customer data...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Top Customers Spending Chart -->
+                <div class="chart-card">
+                    <div class="section-heading">
+                        <div>
+                            <h2>Customer Spending Analysis</h2>
+                            <p class="muted">Compare the top 10 customers by total spending</p>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <canvas id="customerSpendingChart"></canvas>
+                    </div>
+                </div>
+
+
+
+<!-- Product Intelligence -->
+<section class="dashboard-section" id="product-intelligence">
+    <div class="section-heading">
+        <div>
+            <h2>Product Intelligence</h2>
+            <p class="muted">Understand product sales and revenue performance</p>
+        </div>
+    </div>
+
+    <div class="kpi-grid">
+        <article class="kpi-card">
+            <div class="kpi-top">
+                <span>Products Analyzed</span>
+                <span class="kpi-icon blue">P</span>
+            </div>
+            <h2 id="piProducts">Loading...</h2>
+            <p class="muted">Products in current selection</p>
+        </article>
+
+        <article class="kpi-card">
+            <div class="kpi-top">
+                <span>Top Product Revenue</span>
+                <span class="kpi-icon green">₹</span>
+            </div>
+            <h2 id="piTopRevenue">Loading...</h2>
+            <p class="muted">Highest-revenue product</p>
+        </article>
+
+        <article class="kpi-card">
+            <div class="kpi-top">
+                <span>Top Product Units</span>
+                <span class="kpi-icon purple">↗</span>
+            </div>
+            <h2 id="piTopUnits">Loading...</h2>
+            <p class="muted">Units sold by top-revenue product</p>
+        </article>
+    </div>
+
+    <div class="chart-card">
+        <div class="section-heading">
+            <div>
+                <h2>Top Products by Revenue</h2>
+                <p class="muted">Compare the highest-revenue products</p>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="productIntelligenceChart"></canvas>
+        </div>
+    </div>
+</section>
+
+
+
+
+            </section>
+
+            
+
+
+
+            <section class="chart-grid" id="analytics">
+                <article class="panel large-panel">
+                    <div class="panel-heading"><div><h3>Revenue Trend</h3><p class="muted">Monthly revenue and order activity</p></div><span class="tag">Monthly</span></div>
+                    <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+                </article>
+                <article class="panel">
+                    <div class="panel-heading"><div><h3>Category Performance</h3><p class="muted">Revenue by category</p></div></div>
+                    <div class="chart-wrap"><canvas id="categoryChart"></canvas></div>
+                </article>
+                <article class="panel">
+                    <div class="panel-heading"><div><h3>Regional Sales</h3><p class="muted">Revenue by region</p></div></div>
+                    <div class="chart-wrap"><canvas id="regionChart"></canvas></div>
+                </article>
+            </section>
+
+            <section class="table-grid" id="products">
+                <article class="panel">
+                    <div class="panel-heading"><div><h3>Top Products</h3><p class="muted">Ranked by revenue</p></div></div>
+                    <div class="table-scroll"><table><thead><tr><th>Product</th><th>Units</th><th>Revenue</th></tr></thead><tbody id="productTable"><tr><td colspan="3">Loading...</td></tr></tbody></table></div>
+                </article>
+                <article class="panel" id="customers">
+                    <div class="panel-heading"><div><h3>Top Customers</h3><p class="muted">Highest spenders in the selection</p></div></div>
+                    <div class="table-scroll"><table><thead><tr><th>Customer</th><th>Orders</th><th>Total spent</th></tr></thead><tbody id="customerTable"><tr><td colspan="3">Loading...</td></tr></tbody></table></div>
+                </article>
+            </section>
+
+            <section class="panel insights-panel">
+                <div class="panel-heading"><div><h3>Business Insights</h3><p class="muted">Automatically generated from the selected records</p></div><span class="insight-icon">✦</span></div>
+                <ul id="insightList"><li>Analyzing sales data...</li></ul>
+            </section>
+
+            <footer>Shoplytics · E-commerce Sales & Customer Insights <span>Sample data for educational purposes</span></footer>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

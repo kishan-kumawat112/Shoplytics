@@ -1,0 +1,501 @@
+order_id,order_date,customer_id,product,category,quantity,unit_price,revenue,region,payment_method,sales_channel
+ORD0001,2025-05-06,CUST029,Headphones,Electronics,1,2620.78,2620.78,South,UPI,Website
+ORD0002,2025-02-17,CUST028,Novel,Books,4,407.86,1631.44,South,UPI,Website
+ORD0003,2025-10-29,CUST036,Watch,Accessories,4,2643.45,10573.8,North,Credit Card,Mobile App
+ORD0004,2025-06-22,CUST014,Sneakers,Fashion,3,2979.51,8938.53,North,Cash on Delivery,Website
+ORD0005,2025-01-23,CUST094,Sneakers,Fashion,3,3266.38,9799.14,West,UPI,Mobile App
+ORD0006,2025-11-13,CUST114,Headphones,Electronics,3,2664.7,7994.1,East,Credit Card,Website
+ORD0007,2025-02-10,CUST110,Laptop,Electronics,2,58003.75,116007.5,South,UPI,Mobile App
+ORD0008,2025-07-06,CUST021,Jeans,Fashion,4,1848.85,7395.4,East,Debit Card,Website
+ORD0009,2025-03-29,CUST069,Jeans,Fashion,1,1839.29,1839.29,South,Credit Card,Mobile App
+ORD0010,2025-11-24,CUST089,Coffee Maker,Home & Kitchen,3,4940.57,14821.71,Central,Credit Card,Mobile App
+ORD0011,2025-06-11,CUST052,Laptop,Electronics,2,58539.83,117079.66,East,UPI,Website
+ORD0012,2025-09-13,CUST051,Novel,Books,3,424.14,1272.42,West,Credit Card,Mobile App
+ORD0013,2025-10-03,CUST034,Smartphone,Electronics,2,23077.95,46155.9,Central,Cash on Delivery,Mobile App
+ORD0014,2025-03-12,CUST066,Sneakers,Fashion,2,3518.29,7036.58,West,UPI,Website
+ORD0015,2025-12-15,CUST055,Headphones,Electronics,2,2563.72,5127.44,Central,UPI,Mobile App
+ORD0016,2025-10-11,CUST111,Coffee Maker,Home & Kitchen,4,4526.2,18104.8,North,UPI,Mobile App
+ORD0017,2025-03-22,CUST059,Sneakers,Fashion,1,3067.84,3067.84,North,Debit Card,Website
+ORD0018,2025-06-02,CUST108,Watch,Accessories,1,3007.49,3007.49,Central,Credit Card,Website
+ORD0019,2025-09-29,CUST118,Sneakers,Fashion,2,3225.2,6450.4,North,Debit Card,Mobile App
+ORD0020,2025-06-07,CUST031,Laptop,Electronics,1,59720.08,59720.08,North,Credit Card,Website
+ORD0021,2025-09-30,CUST099,Headphones,Electronics,4,2658.01,10632.04,South,Credit Card,Mobile App
+ORD0022,2025-11-07,CUST055,Watch,Accessories,2,2668.43,5336.86,South,Credit Card,Mobile App
+ORD0023,2025-09-22,CUST058,Coffee Maker,Home & Kitchen,3,4444.29,13332.87,North,Credit Card,Website
+ORD0024,2025-10-11,CUST030,Headphones,Electronics,3,2260.52,6781.56,Central,Credit Card,Website
+ORD0025,2025-01-17,CUST111,Headphones,Electronics,1,2364.47,2364.47,East,UPI,Website
+ORD0026,2025-03-09,CUST093,Jeans,Fashion,4,1697.13,6788.52,Central,Cash on Delivery,Website
+ORD0027,2025-02-19,CUST085,Backpack,Accessories,4,1407.12,5628.48,West,Debit Card,Mobile App
+ORD0028,2025-01-28,CUST087,Coffee Maker,Home & Kitchen,4,4827.45,19309.8,North,UPI,Mobile App
+ORD0029,2025-04-08,CUST069,Sneakers,Fashion,1,3039.14,3039.14,West,Credit Card,Mobile App
+ORD0030,2025-02-08,CUST057,Smartphone,Electronics,3,21835.56,65506.68,Central,UPI,Website
+ORD0031,2025-05-02,CUST022,Watch,Accessories,1,3062.64,3062.64,West,Cash on Delivery,Mobile App
+ORD0032,2025-03-26,CUST049,T-Shirt,Fashion,4,864.39,3457.56,North,Cash on Delivery,Mobile App
+ORD0033,2025-10-12,CUST085,Backpack,Accessories,3,1476.9,4430.7,West,Credit Card,Website
+ORD0034,2025-10-24,CUST095,Jeans,Fashion,2,1968.74,3937.48,Central,UPI,Mobile App
+ORD0035,2025-09-15,CUST118,Laptop,Electronics,1,55925.95,55925.95,Central,Credit Card,Website
+ORD0036,2025-02-05,CUST077,Watch,Accessories,1,2996.75,2996.75,North,Credit Card,Mobile App
+ORD0037,2025-01-21,CUST080,Headphones,Electronics,2,2539.46,5078.92,North,Cash on Delivery,Mobile App
+ORD0038,2025-06-10,CUST031,Jeans,Fashion,2,1861.1,3722.2,East,Cash on Delivery,Website
+ORD0039,2025-02-07,CUST002,Jeans,Fashion,4,1733.82,6935.28,West,UPI,Website
+ORD0040,2025-03-09,CUST120,Watch,Accessories,2,2803.3,5606.6,East,UPI,Website
+ORD0041,2025-10-06,CUST091,Sneakers,Fashion,3,2980.96,8942.88,East,UPI,Mobile App
+ORD0042,2025-02-24,CUST096,Headphones,Electronics,2,2382.23,4764.46,Central,Credit Card,Mobile App
+ORD0043,2025-04-15,CUST088,Jeans,Fashion,2,1878.34,3756.68,East,Cash on Delivery,Mobile App
+ORD0044,2025-05-22,CUST006,Laptop,Electronics,1,56477.13,56477.13,North,Debit Card,Website
+ORD0045,2025-10-10,CUST091,Jeans,Fashion,2,1886.84,3773.68,West,UPI,Website
+ORD0046,2025-07-09,CUST075,Headphones,Electronics,2,2522.8,5045.6,Central,Credit Card,Mobile App
+ORD0047,2025-01-21,CUST116,Smartphone,Electronics,1,21156.34,21156.34,East,Credit Card,Website
+ORD0048,2025-07-28,CUST080,Headphones,Electronics,3,2640.06,7920.18,South,Credit Card,Website
+ORD0049,2025-06-20,CUST101,Smartphone,Electronics,4,19909.06,79636.24,West,Credit Card,Mobile App
+ORD0050,2025-01-20,CUST110,Smartphone,Electronics,1,21483.18,21483.18,West,Credit Card,Website
+ORD0051,2025-04-27,CUST029,Backpack,Accessories,3,1441.56,4324.68,North,Credit Card,Mobile App
+ORD0052,2025-05-23,CUST045,Sneakers,Fashion,3,3433.19,10299.57,Central,Cash on Delivery,Mobile App
+ORD0053,2025-05-14,CUST023,Laptop,Electronics,1,59147.42,59147.42,Central,Debit Card,Website
+ORD0054,2025-06-10,CUST056,Headphones,Electronics,4,2422.84,9691.36,Central,UPI,Mobile App
+ORD0055,2025-12-29,CUST056,Novel,Books,2,427.93,855.86,North,Credit Card,Mobile App
+ORD0056,2025-06-19,CUST080,Coffee Maker,Home & Kitchen,1,4903.99,4903.99,East,UPI,Mobile App
+ORD0057,2025-06-17,CUST052,Watch,Accessories,3,2893.46,8680.38,East,Credit Card,Website
+ORD0058,2025-03-31,CUST079,Coffee Maker,Home & Kitchen,4,4659.59,18638.36,Central,Debit Card,Mobile App
+ORD0059,2025-04-18,CUST056,Watch,Accessories,1,2690.17,2690.17,Central,Debit Card,Mobile App
+ORD0060,2025-09-19,CUST061,Backpack,Accessories,4,1552.69,6210.76,South,UPI,Mobile App
+ORD0061,2025-05-01,CUST087,Watch,Accessories,3,2572.3,7716.9,East,Credit Card,Website
+ORD0062,2025-09-01,CUST079,Smartphone,Electronics,1,20003.34,20003.34,North,Cash on Delivery,Mobile App
+ORD0063,2025-07-16,CUST064,Novel,Books,2,469.65,939.3,West,Credit Card,Website
+ORD0064,2025-04-23,CUST023,Laptop,Electronics,1,58062.62,58062.62,Central,Cash on Delivery,Website
+ORD0065,2025-03-04,CUST059,Watch,Accessories,2,3033.78,6067.56,South,Cash on Delivery,Mobile App
+ORD0066,2025-10-08,CUST058,Backpack,Accessories,4,1599.17,6396.68,South,Cash on Delivery,Mobile App
+ORD0067,2025-05-22,CUST099,Jeans,Fashion,2,1922.35,3844.7,Central,Cash on Delivery,Website
+ORD0068,2025-05-27,CUST031,Jeans,Fashion,4,1647.89,6591.56,East,Debit Card,Mobile App
+ORD0069,2025-04-29,CUST050,Watch,Accessories,1,2597.49,2597.49,South,Credit Card,Website
+ORD0070,2025-08-27,CUST054,Coffee Maker,Home & Kitchen,4,4347.79,17391.16,North,Credit Card,Mobile App
+ORD0071,2025-10-22,CUST049,Coffee Maker,Home & Kitchen,1,4821.06,4821.06,West,UPI,Mobile App
+ORD0072,2025-08-03,CUST069,Jeans,Fashion,4,1927.24,7708.96,Central,Credit Card,Mobile App
+ORD0073,2025-01-15,CUST050,T-Shirt,Fashion,3,789.73,2369.19,East,Cash on Delivery,Website
+ORD0074,2025-10-01,CUST004,Backpack,Accessories,2,1644.22,3288.44,West,UPI,Website
+ORD0075,2025-04-04,CUST007,Coffee Maker,Home & Kitchen,2,4830.17,9660.34,East,Cash on Delivery,Mobile App
+ORD0076,2025-07-14,CUST036,T-Shirt,Fashion,4,772.3,3089.2,West,Debit Card,Website
+ORD0077,2025-01-27,CUST045,Backpack,Accessories,1,1574.71,1574.71,South,UPI,Website
+ORD0078,2025-01-11,CUST080,Laptop,Electronics,2,51692.97,103385.94,South,Credit Card,Website
+ORD0079,2025-04-22,CUST060,Backpack,Accessories,1,1519.19,1519.19,East,Debit Card,Website
+ORD0080,2025-03-25,CUST040,Novel,Books,1,475.0,475.0,North,UPI,Mobile App
+ORD0081,2025-04-12,CUST010,Novel,Books,4,440.7,1762.8,Central,Credit Card,Website
+ORD0082,2025-10-17,CUST101,Jeans,Fashion,1,1906.64,1906.64,North,Debit Card,Mobile App
+ORD0083,2025-06-24,CUST002,Sneakers,Fashion,1,3203.81,3203.81,West,Cash on Delivery,Website
+ORD0084,2025-08-24,CUST091,Coffee Maker,Home & Kitchen,3,4622.03,13866.09,South,Cash on Delivery,Website
+ORD0085,2025-10-03,CUST100,Watch,Accessories,3,2864.91,8594.73,West,Cash on Delivery,Mobile App
+ORD0086,2025-05-06,CUST107,Novel,Books,3,434.01,1302.03,North,Debit Card,Mobile App
+ORD0087,2025-12-09,CUST049,T-Shirt,Fashion,4,811.18,3244.72,East,UPI,Mobile App
+ORD0088,2025-07-01,CUST103,Sneakers,Fashion,2,3192.03,6384.06,East,Debit Card,Mobile App
+ORD0089,2025-09-22,CUST025,Novel,Books,3,455.02,1365.06,North,Credit Card,Mobile App
+ORD0090,2025-11-27,CUST092,Backpack,Accessories,2,1557.18,3114.36,West,Cash on Delivery,Website
+ORD0091,2025-12-21,CUST032,Headphones,Electronics,3,2360.8,7082.4,East,Debit Card,Mobile App
+ORD0092,2025-10-09,CUST043,Watch,Accessories,3,2758.28,8274.84,East,Cash on Delivery,Mobile App
+ORD0093,2025-04-09,CUST041,Jeans,Fashion,3,1702.99,5108.97,North,Credit Card,Website
+ORD0094,2025-10-29,CUST098,T-Shirt,Fashion,4,764.24,3056.96,Central,Debit Card,Website
+ORD0095,2025-04-02,CUST039,T-Shirt,Fashion,3,756.4,2269.2,North,Credit Card,Mobile App
+ORD0096,2025-12-24,CUST017,Laptop,Electronics,1,55586.95,55586.95,West,UPI,Website
+ORD0097,2025-08-14,CUST044,Novel,Books,3,447.25,1341.75,South,UPI,Mobile App
+ORD0098,2025-07-25,CUST063,Backpack,Accessories,1,1596.63,1596.63,North,UPI,Website
+ORD0099,2025-05-08,CUST016,Smartphone,Electronics,3,20174.8,60524.4,Central,Cash on Delivery,Website
+ORD0100,2025-08-15,CUST039,Watch,Accessories,4,2772.29,11089.16,Central,Cash on Delivery,Mobile App
+ORD0101,2025-02-20,CUST098,Novel,Books,1,459.87,459.87,South,Credit Card,Mobile App
+ORD0102,2025-10-10,CUST010,Headphones,Electronics,2,2369.93,4739.86,South,UPI,Mobile App
+ORD0103,2025-04-29,CUST037,Backpack,Accessories,4,1437.38,5749.52,East,Cash on Delivery,Website
+ORD0104,2025-11-17,CUST076,T-Shirt,Fashion,3,846.05,2538.15,South,Cash on Delivery,Website
+ORD0105,2025-05-17,CUST106,Watch,Accessories,2,2882.68,5765.36,South,UPI,Website
+ORD0106,2025-10-19,CUST118,Smartphone,Electronics,3,22418.19,67254.57,East,Cash on Delivery,Website
+ORD0107,2025-05-20,CUST065,Backpack,Accessories,3,1559.92,4679.76,Central,Cash on Delivery,Mobile App
+ORD0108,2025-06-15,CUST078,Headphones,Electronics,1,2694.71,2694.71,East,UPI,Website
+ORD0109,2025-12-11,CUST106,T-Shirt,Fashion,1,879.93,879.93,East,UPI,Website
+ORD0110,2025-04-03,CUST075,Backpack,Accessories,4,1624.82,6499.28,West,Cash on Delivery,Website
+ORD0111,2025-06-14,CUST086,Backpack,Accessories,3,1472.5,4417.5,North,Credit Card,Mobile App
+ORD0112,2025-07-25,CUST105,Coffee Maker,Home & Kitchen,4,4309.4,17237.6,Central,UPI,Mobile App
+ORD0113,2025-03-01,CUST099,Headphones,Electronics,3,2376.2,7128.6,West,UPI,Mobile App
+ORD0114,2025-07-05,CUST080,Coffee Maker,Home & Kitchen,1,4218.82,4218.82,West,Cash on Delivery,Website
+ORD0115,2025-05-28,CUST057,T-Shirt,Fashion,3,807.88,2423.64,West,UPI,Website
+ORD0116,2025-06-09,CUST071,Novel,Books,2,468.88,937.76,North,Cash on Delivery,Website
+ORD0117,2025-03-02,CUST083,T-Shirt,Fashion,1,793.83,793.83,South,Cash on Delivery,Mobile App
+ORD0118,2025-09-05,CUST061,Watch,Accessories,3,2752.67,8258.01,South,Cash on Delivery,Website
+ORD0119,2025-09-18,CUST096,Coffee Maker,Home & Kitchen,2,4879.68,9759.36,South,UPI,Mobile App
+ORD0120,2025-09-17,CUST035,Coffee Maker,Home & Kitchen,3,4890.82,14672.46,North,Debit Card,Mobile App
+ORD0121,2025-08-17,CUST069,Novel,Books,4,482.87,1931.48,West,Debit Card,Mobile App
+ORD0122,2025-06-14,CUST112,Watch,Accessories,4,2774.99,11099.96,South,Credit Card,Mobile App
+ORD0123,2025-08-31,CUST091,T-Shirt,Fashion,4,726.98,2907.92,West,Cash on Delivery,Website
+ORD0124,2025-10-30,CUST043,Backpack,Accessories,1,1387.87,1387.87,North,Cash on Delivery,Website
+ORD0125,2025-03-15,CUST053,Watch,Accessories,4,2528.59,10114.36,South,UPI,Mobile App
+ORD0126,2025-07-23,CUST084,Jeans,Fashion,3,1844.37,5533.11,North,Debit Card,Mobile App
+ORD0127,2025-01-19,CUST080,Sneakers,Fashion,4,3438.33,13753.32,North,Credit Card,Mobile App
+ORD0128,2025-02-20,CUST098,T-Shirt,Fashion,1,789.44,789.44,North,Cash on Delivery,Website
+ORD0129,2025-01-29,CUST038,Jeans,Fashion,1,1636.56,1636.56,East,Debit Card,Mobile App
+ORD0130,2025-10-17,CUST088,Smartphone,Electronics,2,22137.13,44274.26,South,Credit Card,Website
+ORD0131,2025-05-04,CUST064,Headphones,Electronics,4,2559.86,10239.44,Central,Credit Card,Website
+ORD0132,2025-12-08,CUST002,Backpack,Accessories,3,1487.87,4463.61,West,Debit Card,Website
+ORD0133,2025-10-28,CUST039,Headphones,Electronics,4,2722.62,10890.48,West,Debit Card,Mobile App
+ORD0134,2025-09-05,CUST014,Jeans,Fashion,2,1979.77,3959.54,South,Cash on Delivery,Mobile App
+ORD0135,2025-06-01,CUST003,Novel,Books,3,494.34,1483.02,West,Debit Card,Website
+ORD0136,2025-09-12,CUST107,Novel,Books,1,486.96,486.96,East,Credit Card,Mobile App
+ORD0137,2025-12-14,CUST097,T-Shirt,Fashion,2,819.34,1638.68,South,UPI,Website
+ORD0138,2025-07-06,CUST094,Jeans,Fashion,4,1632.01,6528.04,South,UPI,Mobile App
+ORD0139,2025-03-09,CUST101,Sneakers,Fashion,4,2992.41,11969.64,Central,Debit Card,Mobile App
+ORD0140,2025-09-04,CUST104,Smartphone,Electronics,3,23821.82,71465.46,East,Debit Card,Website
+ORD0141,2025-04-26,CUST111,Backpack,Accessories,1,1392.23,1392.23,West,Debit Card,Website
+ORD0142,2025-03-05,CUST059,Coffee Maker,Home & Kitchen,1,4288.01,4288.01,East,Debit Card,Mobile App
+ORD0143,2025-08-30,CUST004,Sneakers,Fashion,1,3311.9,3311.9,Central,Debit Card,Website
+ORD0144,2025-06-04,CUST084,Headphones,Electronics,4,2704.69,10818.76,West,UPI,Website
+ORD0145,2025-09-10,CUST015,Laptop,Electronics,1,52848.01,52848.01,North,Credit Card,Website
+ORD0146,2025-12-23,CUST070,Coffee Maker,Home & Kitchen,4,4383.91,17535.64,West,Credit Card,Mobile App
+ORD0147,2025-05-24,CUST005,Headphones,Electronics,4,2557.83,10231.32,East,Credit Card,Mobile App
+ORD0148,2025-02-20,CUST088,Backpack,Accessories,2,1606.64,3213.28,East,Debit Card,Website
+ORD0149,2025-03-04,CUST109,Coffee Maker,Home & Kitchen,3,4220.83,12662.49,West,UPI,Website
+ORD0150,2025-06-20,CUST032,Novel,Books,1,409.55,409.55,South,Credit Card,Website
+ORD0151,2025-04-30,CUST043,Watch,Accessories,2,2848.37,5696.74,South,UPI,Mobile App
+ORD0152,2025-03-31,CUST015,Smartphone,Electronics,2,22176.95,44353.9,North,Credit Card,Website
+ORD0153,2025-01-09,CUST023,Sneakers,Fashion,2,3256.87,6513.74,East,UPI,Website
+ORD0154,2025-09-01,CUST058,Coffee Maker,Home & Kitchen,1,4721.1,4721.1,East,UPI,Mobile App
+ORD0155,2025-01-23,CUST094,Watch,Accessories,2,3049.43,6098.86,Central,Debit Card,Mobile App
+ORD0156,2025-07-25,CUST055,Laptop,Electronics,1,60484.45,60484.45,North,Cash on Delivery,Mobile App
+ORD0157,2025-03-17,CUST009,Headphones,Electronics,1,2411.06,2411.06,South,Debit Card,Mobile App
+ORD0158,2025-11-06,CUST056,Coffee Maker,Home & Kitchen,3,4458.34,13375.02,North,UPI,Website
+ORD0159,2025-07-31,CUST044,Coffee Maker,Home & Kitchen,4,4849.28,19397.12,West,Cash on Delivery,Mobile App
+ORD0160,2025-12-07,CUST033,Headphones,Electronics,3,2463.38,7390.14,East,Credit Card,Mobile App
+ORD0161,2025-02-17,CUST056,Headphones,Electronics,1,2665.89,2665.89,North,Debit Card,Website
+ORD0162,2025-10-15,CUST072,Watch,Accessories,1,2848.42,2848.42,East,UPI,Mobile App
+ORD0163,2025-01-27,CUST037,Sneakers,Fashion,4,3435.58,13742.32,Central,Debit Card,Mobile App
+ORD0164,2025-09-04,CUST029,Headphones,Electronics,2,2327.37,4654.74,North,Debit Card,Mobile App
+ORD0165,2025-08-08,CUST109,Headphones,Electronics,3,2537.05,7611.15,Central,UPI,Mobile App
+ORD0166,2025-06-08,CUST118,Laptop,Electronics,2,52505.97,105011.94,East,Debit Card,Website
+ORD0167,2025-07-25,CUST009,Smartphone,Electronics,2,22291.81,44583.62,South,UPI,Website
+ORD0168,2025-08-21,CUST044,Watch,Accessories,2,2730.67,5461.34,South,Debit Card,Mobile App
+ORD0169,2025-03-21,CUST021,Sneakers,Fashion,1,3445.34,3445.34,Central,UPI,Website
+ORD0170,2025-09-06,CUST078,Jeans,Fashion,4,1858.3,7433.2,West,Cash on Delivery,Mobile App
+ORD0171,2025-02-26,CUST037,T-Shirt,Fashion,1,775.23,775.23,Central,Cash on Delivery,Mobile App
+ORD0172,2025-11-03,CUST008,Laptop,Electronics,2,53847.9,107695.8,North,Credit Card,Mobile App
+ORD0173,2025-05-29,CUST042,T-Shirt,Fashion,2,842.27,1684.54,North,UPI,Mobile App
+ORD0174,2025-09-30,CUST091,Coffee Maker,Home & Kitchen,2,4166.27,8332.54,South,Debit Card,Website
+ORD0175,2025-08-24,CUST118,Coffee Maker,Home & Kitchen,1,4442.6,4442.6,North,Debit Card,Mobile App
+ORD0176,2025-08-02,CUST038,Novel,Books,4,468.85,1875.4,North,Cash on Delivery,Website
+ORD0177,2025-11-13,CUST059,Sneakers,Fashion,2,3392.85,6785.7,East,UPI,Mobile App
+ORD0178,2025-07-25,CUST068,Headphones,Electronics,2,2467.84,4935.68,North,Cash on Delivery,Mobile App
+ORD0179,2025-03-28,CUST010,Sneakers,Fashion,2,3093.16,6186.32,Central,UPI,Website
+ORD0180,2025-11-27,CUST105,Sneakers,Fashion,3,3345.52,10036.56,South,Credit Card,Website
+ORD0181,2025-11-05,CUST020,Smartphone,Electronics,3,20668.0,62004.0,North,Credit Card,Mobile App
+ORD0182,2025-10-17,CUST083,Backpack,Accessories,4,1554.34,6217.36,Central,Debit Card,Mobile App
+ORD0183,2025-08-15,CUST081,Smartphone,Electronics,4,20100.46,80401.84,East,Debit Card,Website
+ORD0184,2025-08-20,CUST005,Sneakers,Fashion,1,3078.66,3078.66,North,Debit Card,Mobile App
+ORD0185,2025-09-17,CUST050,Headphones,Electronics,1,2557.5,2557.5,West,UPI,Mobile App
+ORD0186,2025-09-01,CUST065,Novel,Books,2,433.94,867.88,South,UPI,Mobile App
+ORD0187,2025-02-13,CUST065,Headphones,Electronics,3,2741.19,8223.57,South,UPI,Website
+ORD0188,2025-11-09,CUST021,Backpack,Accessories,4,1507.22,6028.88,East,Debit Card,Mobile App
+ORD0189,2025-12-14,CUST077,Coffee Maker,Home & Kitchen,4,4747.02,18988.08,North,Debit Card,Website
+ORD0190,2025-07-17,CUST037,Sneakers,Fashion,1,3237.1,3237.1,East,Credit Card,Mobile App
+ORD0191,2025-06-08,CUST084,Headphones,Electronics,2,2708.37,5416.74,West,Credit Card,Website
+ORD0192,2025-06-18,CUST105,Jeans,Fashion,4,1851.66,7406.64,South,UPI,Mobile App
+ORD0193,2025-06-08,CUST024,Watch,Accessories,3,2530.21,7590.63,South,Debit Card,Mobile App
+ORD0194,2025-03-21,CUST010,T-Shirt,Fashion,2,880.0,1760.0,East,UPI,Website
+ORD0195,2025-03-20,CUST021,Sneakers,Fashion,2,3262.24,6524.48,South,Credit Card,Mobile App
+ORD0196,2025-05-02,CUST057,Laptop,Electronics,4,53507.29,214029.16,Central,Debit Card,Mobile App
+ORD0197,2025-08-29,CUST116,T-Shirt,Fashion,2,769.51,1539.02,South,Debit Card,Mobile App
+ORD0198,2025-09-15,CUST068,Backpack,Accessories,3,1583.44,4750.32,West,Credit Card,Website
+ORD0199,2025-01-27,CUST083,Novel,Books,2,483.57,967.14,West,Debit Card,Website
+ORD0200,2025-03-24,CUST035,Watch,Accessories,1,2679.64,2679.64,West,Credit Card,Mobile App
+ORD0201,2025-06-28,CUST120,Headphones,Electronics,2,2658.35,5316.7,North,Cash on Delivery,Website
+ORD0202,2025-02-11,CUST048,Coffee Maker,Home & Kitchen,3,4262.2,12786.6,South,UPI,Mobile App
+ORD0203,2025-03-12,CUST005,Headphones,Electronics,3,2645.69,7937.07,East,Cash on Delivery,Website
+ORD0204,2025-02-10,CUST003,Backpack,Accessories,4,1534.6,6138.4,East,Credit Card,Website
+ORD0205,2025-05-28,CUST031,Watch,Accessories,4,2582.26,10329.04,East,UPI,Website
+ORD0206,2025-11-15,CUST059,T-Shirt,Fashion,4,822.23,3288.92,North,UPI,Mobile App
+ORD0207,2025-10-22,CUST031,Novel,Books,1,461.88,461.88,South,Debit Card,Mobile App
+ORD0208,2025-08-02,CUST024,Laptop,Electronics,3,52146.21,156438.63,North,Debit Card,Website
+ORD0209,2025-08-29,CUST006,Watch,Accessories,1,2738.65,2738.65,West,Debit Card,Mobile App
+ORD0210,2025-06-26,CUST031,Laptop,Electronics,3,58173.72,174521.16,North,Debit Card,Website
+ORD0211,2025-11-26,CUST023,Laptop,Electronics,3,55506.15,166518.45,West,Cash on Delivery,Website
+ORD0212,2025-08-23,CUST005,Smartphone,Electronics,1,22950.6,22950.6,East,Credit Card,Website
+ORD0213,2025-06-08,CUST066,T-Shirt,Fashion,1,770.5,770.5,West,Cash on Delivery,Mobile App
+ORD0214,2025-01-25,CUST111,Laptop,Electronics,2,52647.22,105294.44,East,Debit Card,Website
+ORD0215,2025-08-14,CUST115,Sneakers,Fashion,4,3449.27,13797.08,West,Debit Card,Website
+ORD0216,2025-09-23,CUST035,Backpack,Accessories,4,1460.2,5840.8,North,Cash on Delivery,Website
+ORD0217,2025-06-14,CUST014,Coffee Maker,Home & Kitchen,2,4540.93,9081.86,North,Debit Card,Mobile App
+ORD0218,2025-08-07,CUST022,Jeans,Fashion,4,1836.94,7347.76,West,Debit Card,Mobile App
+ORD0219,2025-08-11,CUST036,Laptop,Electronics,3,56263.37,168790.11,North,UPI,Mobile App
+ORD0220,2025-03-15,CUST109,Sneakers,Fashion,2,3489.79,6979.58,Central,Cash on Delivery,Website
+ORD0221,2025-11-27,CUST047,Smartphone,Electronics,1,20838.38,20838.38,East,Cash on Delivery,Website
+ORD0222,2025-07-09,CUST048,Novel,Books,2,466.12,932.24,West,UPI,Website
+ORD0223,2025-11-29,CUST036,Watch,Accessories,3,2742.9,8228.7,South,UPI,Website
+ORD0224,2025-10-15,CUST016,Smartphone,Electronics,4,22078.08,88312.32,East,Debit Card,Mobile App
+ORD0225,2025-09-09,CUST026,T-Shirt,Fashion,3,831.04,2493.12,North,Credit Card,Website
+ORD0226,2025-08-16,CUST012,Backpack,Accessories,2,1619.6,3239.2,East,Debit Card,Website
+ORD0227,2025-03-22,CUST092,Watch,Accessories,3,3019.15,9057.45,South,Debit Card,Website
+ORD0228,2025-05-02,CUST102,Headphones,Electronics,2,2646.03,5292.06,West,UPI,Mobile App
+ORD0229,2025-10-10,CUST017,Watch,Accessories,3,2781.75,8345.25,Central,UPI,Website
+ORD0230,2025-09-03,CUST068,Jeans,Fashion,4,1979.85,7919.4,West,Cash on Delivery,Website
+ORD0231,2025-08-19,CUST060,Smartphone,Electronics,3,22626.29,67878.87,Central,Debit Card,Website
+ORD0232,2025-03-08,CUST056,Watch,Accessories,2,2949.96,5899.92,Central,UPI,Website
+ORD0233,2025-03-24,CUST042,Watch,Accessories,2,2690.31,5380.62,South,Debit Card,Mobile App
+ORD0234,2025-10-10,CUST036,Headphones,Electronics,3,2348.15,7044.45,South,Debit Card,Website
+ORD0235,2025-10-25,CUST020,Watch,Accessories,2,2851.41,5702.82,South,Debit Card,Website
+ORD0236,2025-11-25,CUST099,Laptop,Electronics,1,50000.08,50000.08,Central,Debit Card,Website
+ORD0237,2025-01-16,CUST064,Novel,Books,4,460.63,1842.52,Central,Debit Card,Mobile App
+ORD0238,2025-12-17,CUST052,Backpack,Accessories,2,1591.41,3182.82,East,Cash on Delivery,Website
+ORD0239,2025-09-05,CUST060,Laptop,Electronics,2,54335.66,108671.32,South,Debit Card,Website
+ORD0240,2025-06-26,CUST052,Sneakers,Fashion,3,3349.89,10049.67,South,Debit Card,Website
+ORD0241,2025-05-17,CUST058,Sneakers,Fashion,2,3178.54,6357.08,South,Credit Card,Website
+ORD0242,2025-11-12,CUST054,Laptop,Electronics,3,59899.23,179697.69,South,Credit Card,Mobile App
+ORD0243,2025-03-23,CUST064,Novel,Books,3,422.09,1266.27,Central,Cash on Delivery,Mobile App
+ORD0244,2025-07-21,CUST065,Jeans,Fashion,4,1628.34,6513.36,West,Credit Card,Website
+ORD0245,2025-05-25,CUST064,Novel,Books,3,409.38,1228.14,Central,Cash on Delivery,Mobile App
+ORD0246,2025-08-09,CUST018,Watch,Accessories,1,2994.42,2994.42,East,Debit Card,Mobile App
+ORD0247,2025-10-19,CUST072,Sneakers,Fashion,1,3136.37,3136.37,South,Debit Card,Mobile App
+ORD0248,2025-10-09,CUST036,Headphones,Electronics,4,2502.13,10008.52,Central,UPI,Website
+ORD0249,2025-06-23,CUST072,Headphones,Electronics,4,2436.6,9746.4,East,Credit Card,Website
+ORD0250,2025-01-24,CUST005,Novel,Books,4,450.01,1800.04,South,Debit Card,Mobile App
+ORD0251,2025-09-21,CUST018,Watch,Accessories,4,2603.41,10413.64,East,Debit Card,Website
+ORD0252,2025-09-17,CUST107,Coffee Maker,Home & Kitchen,3,4584.35,13753.05,Central,Cash on Delivery,Mobile App
+ORD0253,2025-12-11,CUST015,Backpack,Accessories,1,1460.51,1460.51,West,Debit Card,Website
+ORD0254,2025-12-02,CUST101,Novel,Books,4,428.9,1715.6,Central,Credit Card,Website
+ORD0255,2025-11-19,CUST093,Novel,Books,4,420.35,1681.4,Central,Cash on Delivery,Website
+ORD0256,2025-12-25,CUST015,T-Shirt,Fashion,1,811.61,811.61,South,UPI,Mobile App
+ORD0257,2025-12-20,CUST027,Sneakers,Fashion,4,2976.92,11907.68,West,Cash on Delivery,Website
+ORD0258,2025-12-06,CUST062,Smartphone,Electronics,2,22267.9,44535.8,Central,Cash on Delivery,Mobile App
+ORD0259,2025-06-25,CUST070,Smartphone,Electronics,4,23813.35,95253.4,East,Debit Card,Mobile App
+ORD0260,2025-06-02,CUST029,T-Shirt,Fashion,2,764.64,1529.28,East,Debit Card,Website
+ORD0261,2025-10-14,CUST120,Backpack,Accessories,3,1493.94,4481.82,East,Debit Card,Website
+ORD0262,2025-07-22,CUST105,Novel,Books,4,485.62,1942.48,East,Credit Card,Mobile App
+ORD0263,2025-02-10,CUST045,Laptop,Electronics,3,60008.45,180025.35,West,Debit Card,Mobile App
+ORD0264,2025-05-19,CUST120,T-Shirt,Fashion,2,852.47,1704.94,Central,Debit Card,Website
+ORD0265,2025-12-09,CUST116,Headphones,Electronics,2,2371.23,4742.46,Central,Credit Card,Website
+ORD0266,2025-08-30,CUST013,Laptop,Electronics,1,54046.32,54046.32,South,UPI,Website
+ORD0267,2025-04-13,CUST097,Coffee Maker,Home & Kitchen,4,4479.7,17918.8,East,Debit Card,Mobile App
+ORD0268,2025-04-29,CUST069,Laptop,Electronics,1,56675.29,56675.29,North,Credit Card,Mobile App
+ORD0269,2025-07-23,CUST101,Smartphone,Electronics,1,24187.56,24187.56,West,Credit Card,Mobile App
+ORD0270,2025-11-05,CUST014,Laptop,Electronics,1,52782.31,52782.31,East,Debit Card,Mobile App
+ORD0271,2025-03-10,CUST109,Watch,Accessories,4,3017.99,12071.96,Central,Cash on Delivery,Mobile App
+ORD0272,2025-08-23,CUST083,T-Shirt,Fashion,1,772.91,772.91,East,Credit Card,Website
+ORD0273,2025-04-09,CUST023,Sneakers,Fashion,3,3243.38,9730.14,Central,Cash on Delivery,Mobile App
+ORD0274,2025-12-09,CUST013,Watch,Accessories,3,2568.57,7705.71,South,Credit Card,Mobile App
+ORD0275,2025-07-16,CUST031,Sneakers,Fashion,2,2884.37,5768.74,West,Debit Card,Mobile App
+ORD0276,2025-07-04,CUST089,Jeans,Fashion,1,1714.16,1714.16,South,UPI,Website
+ORD0277,2025-12-18,CUST065,Backpack,Accessories,3,1397.92,4193.76,East,UPI,Mobile App
+ORD0278,2025-03-10,CUST062,Sneakers,Fashion,2,3020.24,6040.48,South,Cash on Delivery,Mobile App
+ORD0279,2025-12-07,CUST106,Coffee Maker,Home & Kitchen,4,4731.62,18926.48,South,Credit Card,Website
+ORD0280,2025-07-05,CUST010,Watch,Accessories,4,2815.78,11263.12,Central,UPI,Website
+ORD0281,2025-03-18,CUST022,Watch,Accessories,2,2840.71,5681.42,East,Cash on Delivery,Website
+ORD0282,2025-09-19,CUST058,T-Shirt,Fashion,4,734.55,2938.2,North,Cash on Delivery,Website
+ORD0283,2025-01-30,CUST072,Watch,Accessories,4,2775.81,11103.24,West,Debit Card,Website
+ORD0284,2025-04-22,CUST075,Coffee Maker,Home & Kitchen,3,4784.81,14354.43,North,UPI,Mobile App
+ORD0285,2025-01-31,CUST120,Sneakers,Fashion,1,3226.34,3226.34,North,Cash on Delivery,Website
+ORD0286,2025-03-11,CUST099,Jeans,Fashion,4,1684.79,6739.16,West,Debit Card,Mobile App
+ORD0287,2025-12-16,CUST085,Backpack,Accessories,4,1462.69,5850.76,Central,Credit Card,Mobile App
+ORD0288,2025-07-21,CUST068,Headphones,Electronics,2,2746.42,5492.84,South,Credit Card,Website
+ORD0289,2025-10-06,CUST055,Laptop,Electronics,3,54593.04,163779.12,Central,Cash on Delivery,Website
+ORD0290,2025-05-22,CUST025,T-Shirt,Fashion,4,775.39,3101.56,North,UPI,Mobile App
+ORD0291,2025-02-04,CUST013,Novel,Books,1,426.66,426.66,Central,UPI,Mobile App
+ORD0292,2025-01-23,CUST052,Novel,Books,1,427.03,427.03,West,Credit Card,Website
+ORD0293,2025-05-29,CUST030,Laptop,Electronics,2,55042.85,110085.7,Central,Debit Card,Mobile App
+ORD0294,2025-12-05,CUST067,T-Shirt,Fashion,3,860.2,2580.6,South,Cash on Delivery,Mobile App
+ORD0295,2025-10-30,CUST113,Jeans,Fashion,1,1820.42,1820.42,South,Cash on Delivery,Mobile App
+ORD0296,2025-12-10,CUST049,Laptop,Electronics,3,59857.45,179572.35,Central,Debit Card,Mobile App
+ORD0297,2025-04-05,CUST097,Coffee Maker,Home & Kitchen,2,4319.9,8639.8,Central,Cash on Delivery,Website
+ORD0298,2025-03-15,CUST104,T-Shirt,Fashion,3,857.21,2571.63,West,UPI,Mobile App
+ORD0299,2025-05-11,CUST027,Coffee Maker,Home & Kitchen,2,4399.58,8799.16,East,UPI,Mobile App
+ORD0300,2025-04-08,CUST007,Sneakers,Fashion,1,3222.81,3222.81,East,Cash on Delivery,Website
+ORD0301,2025-10-28,CUST093,Headphones,Electronics,2,2652.33,5304.66,Central,Credit Card,Mobile App
+ORD0302,2025-01-08,CUST028,T-Shirt,Fashion,3,768.51,2305.53,South,UPI,Mobile App
+ORD0303,2025-05-03,CUST071,T-Shirt,Fashion,2,783.46,1566.92,East,Debit Card,Mobile App
+ORD0304,2025-07-04,CUST066,Backpack,Accessories,3,1442.53,4327.59,West,Cash on Delivery,Website
+ORD0305,2025-07-09,CUST041,Backpack,Accessories,3,1624.3,4872.9,West,UPI,Website
+ORD0306,2025-10-27,CUST075,Smartphone,Electronics,1,20947.41,20947.41,West,Debit Card,Website
+ORD0307,2025-10-19,CUST107,T-Shirt,Fashion,3,756.8,2270.4,South,Cash on Delivery,Mobile App
+ORD0308,2025-11-25,CUST095,Jeans,Fashion,4,1967.94,7871.76,West,Cash on Delivery,Website
+ORD0309,2025-10-07,CUST063,Sneakers,Fashion,2,2969.57,5939.14,South,UPI,Website
+ORD0310,2025-07-31,CUST018,Headphones,Electronics,1,2632.17,2632.17,South,UPI,Website
+ORD0311,2025-07-11,CUST008,Laptop,Electronics,2,55063.06,110126.12,Central,Cash on Delivery,Mobile App
+ORD0312,2025-07-30,CUST002,Laptop,Electronics,1,55354.34,55354.34,North,Debit Card,Mobile App
+ORD0313,2025-04-02,CUST014,Laptop,Electronics,4,58367.84,233471.36,North,Credit Card,Website
+ORD0314,2025-05-17,CUST102,T-Shirt,Fashion,3,850.43,2551.29,West,UPI,Mobile App
+ORD0315,2025-12-23,CUST029,Coffee Maker,Home & Kitchen,4,4558.5,18234.0,East,UPI,Website
+ORD0316,2025-10-10,CUST061,Headphones,Electronics,4,2439.63,9758.52,North,UPI,Website
+ORD0317,2025-11-27,CUST101,Headphones,Electronics,4,2672.66,10690.64,East,UPI,Website
+ORD0318,2025-12-21,CUST114,T-Shirt,Fashion,2,864.2,1728.4,Central,Cash on Delivery,Mobile App
+ORD0319,2025-05-24,CUST116,Laptop,Electronics,1,57028.72,57028.72,Central,UPI,Website
+ORD0320,2025-10-28,CUST019,Sneakers,Fashion,1,3495.34,3495.34,West,UPI,Mobile App
+ORD0321,2025-07-19,CUST087,Smartphone,Electronics,2,22293.46,44586.92,Central,Debit Card,Mobile App
+ORD0322,2025-06-27,CUST007,Smartphone,Electronics,1,22003.49,22003.49,North,Cash on Delivery,Website
+ORD0323,2025-11-11,CUST077,Headphones,Electronics,3,2552.58,7657.74,West,Debit Card,Website
+ORD0324,2025-07-02,CUST071,Jeans,Fashion,4,1796.62,7186.48,West,Cash on Delivery,Website
+ORD0325,2025-11-13,CUST038,Novel,Books,4,412.71,1650.84,South,UPI,Website
+ORD0326,2025-11-21,CUST020,Jeans,Fashion,2,1756.8,3513.6,West,Debit Card,Mobile App
+ORD0327,2025-06-07,CUST057,Headphones,Electronics,1,2252.6,2252.6,East,Debit Card,Website
+ORD0328,2025-08-18,CUST072,Smartphone,Electronics,1,20624.52,20624.52,Central,Cash on Delivery,Website
+ORD0329,2025-02-17,CUST077,Laptop,Electronics,1,53393.06,53393.06,Central,Debit Card,Mobile App
+ORD0330,2025-02-13,CUST093,Laptop,Electronics,3,54051.91,162155.73,Central,Credit Card,Website
+ORD0331,2025-06-04,CUST035,Coffee Maker,Home & Kitchen,2,4174.96,8349.92,West,Credit Card,Website
+ORD0332,2025-06-03,CUST062,Smartphone,Electronics,4,21014.23,84056.92,North,Debit Card,Mobile App
+ORD0333,2025-04-11,CUST059,T-Shirt,Fashion,4,815.01,3260.04,North,Credit Card,Mobile App
+ORD0334,2025-11-14,CUST049,Laptop,Electronics,4,53154.39,212617.56,East,Cash on Delivery,Mobile App
+ORD0335,2025-11-05,CUST089,Coffee Maker,Home & Kitchen,2,4320.39,8640.78,South,Cash on Delivery,Mobile App
+ORD0336,2025-05-30,CUST095,Smartphone,Electronics,4,24062.39,96249.56,West,Credit Card,Mobile App
+ORD0337,2025-07-21,CUST047,Coffee Maker,Home & Kitchen,3,4784.85,14354.55,North,Credit Card,Website
+ORD0338,2025-08-25,CUST091,Watch,Accessories,1,3053.68,3053.68,South,Cash on Delivery,Mobile App
+ORD0339,2025-03-13,CUST082,Headphones,Electronics,4,2586.49,10345.96,East,Credit Card,Mobile App
+ORD0340,2025-02-07,CUST058,Smartphone,Electronics,4,23271.94,93087.76,Central,Cash on Delivery,Mobile App
+ORD0341,2025-07-04,CUST090,Watch,Accessories,4,2824.44,11297.76,Central,UPI,Website
+ORD0342,2025-11-10,CUST006,T-Shirt,Fashion,3,746.61,2239.83,Central,Cash on Delivery,Mobile App
+ORD0343,2025-05-13,CUST029,Coffee Maker,Home & Kitchen,1,4059.49,4059.49,Central,Credit Card,Mobile App
+ORD0344,2025-12-14,CUST076,Sneakers,Fashion,4,3176.36,12705.44,Central,Credit Card,Mobile App
+ORD0345,2025-08-01,CUST118,Laptop,Electronics,4,50650.04,202600.16,North,UPI,Website
+ORD0346,2025-04-16,CUST067,Sneakers,Fashion,3,3099.56,9298.68,West,Debit Card,Mobile App
+ORD0347,2025-08-20,CUST041,Headphones,Electronics,4,2611.0,10444.0,North,Debit Card,Website
+ORD0348,2025-11-28,CUST014,Headphones,Electronics,1,2674.59,2674.59,South,Credit Card,Website
+ORD0349,2025-08-07,CUST060,Watch,Accessories,2,2705.35,5410.7,South,Cash on Delivery,Website
+ORD0350,2025-11-11,CUST114,Smartphone,Electronics,4,21540.56,86162.24,South,Cash on Delivery,Mobile App
+ORD0351,2025-04-16,CUST036,Coffee Maker,Home & Kitchen,1,4684.26,4684.26,North,UPI,Website
+ORD0352,2025-02-28,CUST034,Sneakers,Fashion,3,3006.13,9018.39,West,Debit Card,Mobile App
+ORD0353,2025-06-28,CUST046,Novel,Books,4,457.83,1831.32,West,Credit Card,Mobile App
+ORD0354,2025-06-10,CUST016,Novel,Books,1,465.49,465.49,South,Debit Card,Website
+ORD0355,2025-09-19,CUST050,Smartphone,Electronics,3,22851.12,68553.36,West,Credit Card,Mobile App
+ORD0356,2025-10-03,CUST089,Coffee Maker,Home & Kitchen,2,4488.0,8976.0,South,Credit Card,Mobile App
+ORD0357,2025-08-19,CUST080,Jeans,Fashion,2,1687.36,3374.72,North,Debit Card,Website
+ORD0358,2025-07-16,CUST072,Backpack,Accessories,2,1408.54,2817.08,Central,Cash on Delivery,Mobile App
+ORD0359,2025-08-16,CUST063,Backpack,Accessories,4,1563.04,6252.16,South,UPI,Website
+ORD0360,2025-04-26,CUST069,T-Shirt,Fashion,3,725.23,2175.69,East,Credit Card,Mobile App
+ORD0361,2025-02-27,CUST074,Novel,Books,4,454.48,1817.92,North,Debit Card,Mobile App
+ORD0362,2025-08-14,CUST070,Watch,Accessories,1,2945.6,2945.6,South,Cash on Delivery,Website
+ORD0363,2025-01-17,CUST058,T-Shirt,Fashion,3,859.97,2579.91,East,Debit Card,Website
+ORD0364,2025-05-02,CUST027,Backpack,Accessories,1,1582.69,1582.69,Central,Debit Card,Mobile App
+ORD0365,2025-04-16,CUST104,Smartphone,Electronics,2,23253.34,46506.68,North,Debit Card,Mobile App
+ORD0366,2025-12-27,CUST038,Novel,Books,2,434.13,868.26,East,Debit Card,Website
+ORD0367,2025-05-22,CUST111,Smartphone,Electronics,4,23842.58,95370.32,South,Credit Card,Website
+ORD0368,2025-12-13,CUST051,Smartphone,Electronics,3,23445.32,70335.96,West,Credit Card,Mobile App
+ORD0369,2025-11-21,CUST102,Coffee Maker,Home & Kitchen,4,4456.79,17827.16,North,Cash on Delivery,Mobile App
+ORD0370,2025-06-17,CUST075,Sneakers,Fashion,4,3488.16,13952.64,North,UPI,Mobile App
+ORD0371,2025-07-23,CUST028,Sneakers,Fashion,1,3389.23,3389.23,West,Credit Card,Mobile App
+ORD0372,2025-06-22,CUST071,Jeans,Fashion,3,1918.2,5754.6,Central,Credit Card,Mobile App
+ORD0373,2025-11-17,CUST101,Sneakers,Fashion,1,2909.4,2909.4,West,UPI,Website
+ORD0374,2025-08-08,CUST026,Smartphone,Electronics,4,21808.68,87234.72,South,Debit Card,Website
+ORD0375,2025-05-09,CUST011,Jeans,Fashion,1,1855.65,1855.65,East,Credit Card,Website
+ORD0376,2025-04-30,CUST055,Coffee Maker,Home & Kitchen,3,4703.39,14110.17,North,UPI,Website
+ORD0377,2025-10-31,CUST029,T-Shirt,Fashion,4,732.47,2929.88,Central,Cash on Delivery,Website
+ORD0378,2025-08-05,CUST089,Laptop,Electronics,3,58488.2,175464.6,South,Cash on Delivery,Website
+ORD0379,2025-02-22,CUST014,T-Shirt,Fashion,4,734.29,2937.16,East,Debit Card,Mobile App
+ORD0380,2025-03-10,CUST083,Smartphone,Electronics,4,23203.23,92812.92,South,UPI,Website
+ORD0381,2025-04-20,CUST081,Novel,Books,2,444.61,889.22,South,Cash on Delivery,Mobile App
+ORD0382,2025-03-13,CUST097,T-Shirt,Fashion,1,863.45,863.45,North,Cash on Delivery,Mobile App
+ORD0383,2025-05-07,CUST036,Coffee Maker,Home & Kitchen,3,4761.97,14285.91,North,Credit Card,Mobile App
+ORD0384,2025-11-07,CUST066,Laptop,Electronics,3,51759.9,155279.7,South,Cash on Delivery,Mobile App
+ORD0385,2025-02-27,CUST031,Laptop,Electronics,2,54943.76,109887.52,West,UPI,Website
+ORD0386,2025-10-19,CUST054,Sneakers,Fashion,3,2964.47,8893.41,East,Credit Card,Mobile App
+ORD0387,2025-01-08,CUST034,Headphones,Electronics,1,2543.68,2543.68,South,UPI,Website
+ORD0388,2025-09-14,CUST099,Coffee Maker,Home & Kitchen,3,4615.71,13847.13,West,Cash on Delivery,Mobile App
+ORD0389,2025-06-08,CUST011,Headphones,Electronics,2,2388.73,4777.46,Central,Credit Card,Website
+ORD0390,2025-11-21,CUST098,Watch,Accessories,3,2738.81,8216.43,North,Debit Card,Mobile App
+ORD0391,2025-08-11,CUST015,T-Shirt,Fashion,1,759.12,759.12,West,UPI,Mobile App
+ORD0392,2025-03-12,CUST090,Smartphone,Electronics,1,19855.73,19855.73,North,Credit Card,Mobile App
+ORD0393,2025-03-06,CUST096,Sneakers,Fashion,3,2986.86,8960.58,East,UPI,Website
+ORD0394,2025-02-02,CUST034,Sneakers,Fashion,4,3054.07,12216.28,Central,UPI,Mobile App
+ORD0395,2025-10-18,CUST022,Backpack,Accessories,3,1366.63,4099.89,East,Credit Card,Mobile App
+ORD0396,2025-09-18,CUST001,Headphones,Electronics,1,2364.2,2364.2,North,UPI,Website
+ORD0397,2025-03-18,CUST023,Laptop,Electronics,4,53503.74,214014.96,North,Cash on Delivery,Website
+ORD0398,2025-06-13,CUST035,Sneakers,Fashion,2,3146.4,6292.8,North,Debit Card,Website
+ORD0399,2025-09-22,CUST006,Watch,Accessories,1,2620.43,2620.43,West,UPI,Mobile App
+ORD0400,2025-10-11,CUST059,Jeans,Fashion,3,1737.83,5213.49,North,Debit Card,Website
+ORD0401,2025-05-05,CUST060,Jeans,Fashion,3,1886.25,5658.75,East,Cash on Delivery,Website
+ORD0402,2025-07-29,CUST004,Watch,Accessories,2,2604.32,5208.64,South,Debit Card,Website
+ORD0403,2025-07-12,CUST109,Sneakers,Fashion,1,3365.71,3365.71,East,UPI,Website
+ORD0404,2025-01-31,CUST019,Watch,Accessories,2,2755.1,5510.2,East,UPI,Website
+ORD0405,2025-07-10,CUST059,T-Shirt,Fashion,4,832.14,3328.56,North,UPI,Website
+ORD0406,2025-02-01,CUST056,Coffee Maker,Home & Kitchen,1,4582.71,4582.71,South,Credit Card,Mobile App
+ORD0407,2025-07-21,CUST090,Jeans,Fashion,3,1953.38,5860.14,East,Debit Card,Mobile App
+ORD0408,2025-04-14,CUST018,Jeans,Fashion,2,1646.89,3293.78,Central,UPI,Website
+ORD0409,2025-06-10,CUST053,Headphones,Electronics,2,2474.78,4949.56,North,Debit Card,Website
+ORD0410,2025-03-03,CUST012,Backpack,Accessories,3,1489.0,4467.0,South,Debit Card,Website
+ORD0411,2025-12-31,CUST032,T-Shirt,Fashion,3,743.73,2231.19,East,Cash on Delivery,Website
+ORD0412,2025-03-31,CUST004,Jeans,Fashion,3,1915.23,5745.69,West,Cash on Delivery,Website
+ORD0413,2025-03-13,CUST016,Headphones,Electronics,4,2300.95,9203.8,North,UPI,Website
+ORD0414,2025-07-10,CUST088,Smartphone,Electronics,2,23424.16,46848.32,North,Debit Card,Website
+ORD0415,2025-11-27,CUST057,Laptop,Electronics,1,51675.25,51675.25,South,UPI,Mobile App
+ORD0416,2025-01-26,CUST022,Headphones,Electronics,1,2721.14,2721.14,Central,Cash on Delivery,Mobile App
+ORD0417,2025-08-07,CUST023,Backpack,Accessories,1,1464.82,1464.82,East,Credit Card,Website
+ORD0418,2025-03-18,CUST005,Jeans,Fashion,3,1780.56,5341.68,Central,Credit Card,Mobile App
+ORD0419,2025-09-03,CUST008,Backpack,Accessories,4,1614.83,6459.32,North,Debit Card,Mobile App
+ORD0420,2025-09-27,CUST032,Smartphone,Electronics,4,20677.61,82710.44,Central,UPI,Mobile App
+ORD0421,2025-09-06,CUST045,Sneakers,Fashion,4,3228.49,12913.96,Central,Debit Card,Mobile App
+ORD0422,2025-11-02,CUST029,Jeans,Fashion,2,1629.38,3258.76,North,Debit Card,Website
+ORD0423,2025-04-30,CUST021,Backpack,Accessories,3,1580.05,4740.15,North,Credit Card,Website
+ORD0424,2025-04-23,CUST074,Jeans,Fashion,1,1895.06,1895.06,West,Debit Card,Website
+ORD0425,2025-12-24,CUST046,Smartphone,Electronics,2,22407.09,44814.18,Central,UPI,Mobile App
+ORD0426,2025-04-07,CUST108,Novel,Books,2,455.68,911.36,West,Debit Card,Website
+ORD0427,2025-04-30,CUST078,Backpack,Accessories,1,1377.08,1377.08,South,UPI,Mobile App
+ORD0428,2025-04-14,CUST104,Laptop,Electronics,3,59596.86,178790.58,South,Debit Card,Website
+ORD0429,2025-10-28,CUST091,Sneakers,Fashion,1,2894.02,2894.02,South,UPI,Mobile App
+ORD0430,2025-12-06,CUST051,Headphones,Electronics,3,2602.27,7806.81,Central,UPI,Mobile App
+ORD0431,2025-03-22,CUST094,Jeans,Fashion,3,1669.12,5007.36,West,Cash on Delivery,Mobile App
+ORD0432,2025-10-29,CUST105,Smartphone,Electronics,3,20782.24,62346.72,South,Cash on Delivery,Mobile App
+ORD0433,2025-01-01,CUST090,Jeans,Fashion,2,1683.97,3367.94,Central,Cash on Delivery,Website
+ORD0434,2025-11-10,CUST029,Smartphone,Electronics,3,23852.57,71557.71,Central,UPI,Mobile App
+ORD0435,2025-05-02,CUST045,Smartphone,Electronics,3,23079.51,69238.53,East,Credit Card,Website
+ORD0436,2025-04-18,CUST032,Sneakers,Fashion,4,2887.29,11549.16,North,Debit Card,Mobile App
+ORD0437,2025-08-13,CUST094,Headphones,Electronics,1,2274.07,2274.07,West,Credit Card,Mobile App
+ORD0438,2025-07-12,CUST013,Backpack,Accessories,4,1455.37,5821.48,West,Credit Card,Website
+ORD0439,2025-01-18,CUST038,Backpack,Accessories,1,1589.76,1589.76,North,Debit Card,Mobile App
+ORD0440,2025-07-12,CUST021,Headphones,Electronics,1,2420.9,2420.9,North,UPI,Mobile App
+ORD0441,2025-08-09,CUST084,Novel,Books,4,468.41,1873.64,South,Cash on Delivery,Website
+ORD0442,2025-04-08,CUST053,Laptop,Electronics,1,53142.04,53142.04,Central,Debit Card,Mobile App
+ORD0443,2025-07-21,CUST074,Jeans,Fashion,2,1654.53,3309.06,Central,Cash on Delivery,Website
+ORD0444,2025-02-14,CUST038,Laptop,Electronics,3,49541.97,148625.91,Central,Cash on Delivery,Website
+ORD0445,2025-11-23,CUST038,Headphones,Electronics,1,2353.48,2353.48,North,Cash on Delivery,Website
+ORD0446,2025-12-05,CUST034,Jeans,Fashion,4,1789.54,7158.16,North,Cash on Delivery,Website
+ORD0447,2025-08-17,CUST006,Sneakers,Fashion,4,3116.42,12465.68,East,Cash on Delivery,Mobile App
+ORD0448,2025-10-16,CUST008,Jeans,Fashion,2,1921.35,3842.7,South,UPI,Website
+ORD0449,2025-10-29,CUST030,Sneakers,Fashion,4,3501.25,14005.0,Central,UPI,Mobile App
+ORD0450,2025-12-18,CUST111,Watch,Accessories,4,3060.75,12243.0,West,Credit Card,Mobile App
+ORD0451,2025-01-18,CUST065,Jeans,Fashion,1,1762.13,1762.13,Central,Credit Card,Website
+ORD0452,2025-03-27,CUST028,Backpack,Accessories,2,1634.72,3269.44,South,Credit Card,Website
+ORD0453,2025-08-11,CUST026,Coffee Maker,Home & Kitchen,1,4939.45,4939.45,South,Debit Card,Mobile App
+ORD0454,2025-07-23,CUST071,Headphones,Electronics,1,2444.05,2444.05,East,Debit Card,Mobile App
+ORD0455,2025-03-18,CUST019,Laptop,Electronics,4,50737.71,202950.84,Central,UPI,Website
+ORD0456,2025-10-02,CUST113,Novel,Books,1,475.72,475.72,East,Cash on Delivery,Mobile App
+ORD0457,2025-08-31,CUST005,Coffee Maker,Home & Kitchen,4,4564.82,18259.28,South,Debit Card,Mobile App
+ORD0458,2025-06-19,CUST089,Smartphone,Electronics,4,19970.64,79882.56,South,UPI,Mobile App
+ORD0459,2025-06-05,CUST040,Jeans,Fashion,3,1627.28,4881.84,East,Cash on Delivery,Website
+ORD0460,2025-08-15,CUST100,T-Shirt,Fashion,2,768.08,1536.16,East,Debit Card,Mobile App
+ORD0461,2025-04-19,CUST117,Novel,Books,1,421.91,421.91,West,Cash on Delivery,Mobile App
+ORD0462,2025-12-30,CUST065,Laptop,Electronics,2,50221.79,100443.58,West,Credit Card,Website
+ORD0463,2025-04-13,CUST108,Smartphone,Electronics,2,23650.79,47301.58,North,Credit Card,Website
+ORD0464,2025-12-27,CUST026,Backpack,Accessories,1,1625.41,1625.41,East,Debit Card,Mobile App
+ORD0465,2025-03-05,CUST088,Watch,Accessories,4,2875.83,11503.32,North,Credit Card,Mobile App
+ORD0466,2025-08-31,CUST076,Backpack,Accessories,4,1403.28,5613.12,Central,Debit Card,Mobile App
+ORD0467,2025-12-19,CUST012,Smartphone,Electronics,3,23095.43,69286.29,East,UPI,Mobile App
+ORD0468,2025-04-20,CUST110,Laptop,Electronics,2,58892.03,117784.06,South,Credit Card,Website
+ORD0469,2025-12-16,CUST002,Jeans,Fashion,4,1804.78,7219.12,West,Credit Card,Website
+ORD0470,2025-11-08,CUST104,Novel,Books,1,425.14,425.14,East,Debit Card,Mobile App
+ORD0471,2025-04-22,CUST060,Coffee Maker,Home & Kitchen,3,4463.1,13389.3,East,Cash on Delivery,Website
+ORD0472,2025-11-01,CUST078,Laptop,Electronics,3,55676.03,167028.09,East,Debit Card,Website
+ORD0473,2025-05-22,CUST082,Backpack,Accessories,1,1450.89,1450.89,East,Debit Card,Mobile App
+ORD0474,2025-05-04,CUST116,Jeans,Fashion,2,1673.97,3347.94,North,Cash on Delivery,Mobile App
+ORD0475,2025-06-01,CUST034,Smartphone,Electronics,1,22683.76,22683.76,West,Cash on Delivery,Mobile App
+ORD0476,2025-04-24,CUST088,Laptop,Electronics,2,53274.84,106549.68,Central,Cash on Delivery,Mobile App
+ORD0477,2025-12-03,CUST113,Watch,Accessories,3,2993.43,8980.29,Central,Credit Card,Mobile App
+ORD0478,2025-05-13,CUST093,Headphones,Electronics,4,2313.97,9255.88,Central,Credit Card,Mobile App
+ORD0479,2025-06-07,CUST054,Headphones,Electronics,2,2427.64,4855.28,East,Debit Card,Mobile App
+ORD0480,2025-03-02,CUST061,Novel,Books,3,446.74,1340.22,North,UPI,Mobile App
+ORD0481,2025-07-15,CUST068,T-Shirt,Fashion,1,858.8,858.8,East,Cash on Delivery,Website
+ORD0482,2025-06-25,CUST053,Smartphone,Electronics,2,24166.33,48332.66,Central,Cash on Delivery,Website
+ORD0483,2025-09-07,CUST043,Sneakers,Fashion,2,3378.52,6757.04,South,Debit Card,Website
+ORD0484,2025-03-28,CUST074,Laptop,Electronics,4,52508.81,210035.24,South,Cash on Delivery,Website
+ORD0485,2025-07-26,CUST055,Smartphone,Electronics,4,22587.35,90349.4,West,Cash on Delivery,Website
+ORD0486,2025-01-08,CUST115,Laptop,Electronics,2,57537.25,115074.5,East,Credit Card,Website
+ORD0487,2025-06-26,CUST040,Laptop,Electronics,2,51988.92,103977.84,South,UPI,Mobile App
+ORD0488,2025-01-24,CUST039,Watch,Accessories,3,2613.53,7840.59,East,Cash on Delivery,Mobile App
+ORD0489,2025-09-08,CUST046,Coffee Maker,Home & Kitchen,2,4358.46,8716.92,South,Credit Card,Mobile App
+ORD0490,2025-03-09,CUST028,Laptop,Electronics,2,51967.53,103935.06,North,Credit Card,Website
+ORD0491,2025-11-24,CUST033,Sneakers,Fashion,1,3120.12,3120.12,Central,UPI,Website
+ORD0492,2025-03-01,CUST054,Headphones,Electronics,1,2274.12,2274.12,West,Cash on Delivery,Website
+ORD0493,2025-03-20,CUST027,Watch,Accessories,3,2785.66,8356.98,North,Debit Card,Mobile App
+ORD0494,2025-12-25,CUST018,Headphones,Electronics,3,2561.4,7684.2,West,UPI,Website
+ORD0495,2025-09-12,CUST026,Jeans,Fashion,1,1902.51,1902.51,Central,Credit Card,Mobile App
+ORD0496,2025-07-29,CUST038,Watch,Accessories,2,2720.44,5440.88,South,UPI,Mobile App
+ORD0497,2025-01-02,CUST002,T-Shirt,Fashion,4,772.9,3091.6,North,UPI,Mobile App
+ORD0498,2025-02-08,CUST093,Smartphone,Electronics,1,23229.92,23229.92,North,Debit Card,Website
+ORD0499,2025-01-26,CUST013,Backpack,Accessories,3,1429.24,4287.72,South,UPI,Mobile App
+ORD0500,2025-03-01,CUST013,Sneakers,Fashion,3,3152.64,9457.92,North,UPI,Website
